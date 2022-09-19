@@ -15,6 +15,6 @@ class FPS_UI_DEMO_API UUtilBPFunctionLibrary : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 
 
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "IsPlayingInEditor", Category = "Utils"))
-	static bool IsPlayingInEditor(UObject* Object);
+	UFUNCTION(BlueprintCallable, meta = (DisplayName = "IsPlayingInEditor", Category = "Utils", WorldContext = WorldContextObject))
+	static bool IsPlayingInEditor(UObject* WorldContextObject);
 };
