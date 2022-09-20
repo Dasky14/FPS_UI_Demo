@@ -1,11 +1,21 @@
 # FPS_UI_Demo
-A demo project created to showcase the UI and basic character movement in Unreal Engine 5.
-The project uses blueprints to create a functional settings UI with setting validity checking for supported resolutions.
+A demo project created on top of existing world assets to showcase the settings user interface.
+The project was made with the intention of learning more about Unreal's UI systems, and to demonstrate the skill to use them effectively.
 
+The project uses blueprints to create a functional settings UI with setting validity checking for supported resolutions.
+Blueprints are used because they are better at handling unreal's own widgets than writing plain C++ code, and are much less prone to some UI update bugs.
 
 In case you want to check the blueprints, most of the UI code is within the pause menu widget and player controller.
 
-[YouTube demo video of the UI](https://youtu.be/lBmcHuFDDTQ)
+
+Since downloading the project into UE5 is required to view blueprints, here is a preview of the UI widget blueprint:
+![Image of UI widget blueprint](https://i.imgur.com/KS0dnYJ.png)
+
+
+[YouTube demo video of the UI](https://imgur.com/KS0dnYJ)
+
+
+
 
 ### V1.0.2 Windows release:
 (20.09.2022) [OneDrive - FPS_UI_Demo_Windows.zip](https://1drv.ms/u/s!Al42uRBk2dGGuFlodRFBNiOgGPCx?e=0enrBS)
