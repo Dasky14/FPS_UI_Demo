@@ -12,7 +12,7 @@ Since downloading the project into UE5 is required to view blueprints, here is a
 ![Image of UI widget blueprint](https://i.imgur.com/KS0dnYJ.png)
 
 
-[YouTube demo video of the UI](https://imgur.com/KS0dnYJ)
+[YouTube demo video of the UI](https://youtu.be/lBmcHuFDDTQ)
 
 
 
